@@ -1,0 +1,31 @@
+
+img{
+    max-width: 200px;
+    height: auto;
+    border: 5px solid black;
+
+    display: block;
+    margin: 0px auto;
+
+    margin-top: 100px;
+    border-radius: 50%;
+    
+}
+img:hover{
+    animation-name: img-bs;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes img-bs {
+    0% {
+        border-color: rgb(234, 142, 3);
+    }
+
+    50%{
+        border-color: rgb(26, 241, 2);
+    }
+     100%{
+        border-color: rgb(25, 6, 235);
+    }
+}
+

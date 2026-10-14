@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.continer{
+    background-color: rgb(239, 137, 5);
+}
+
+.flot{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/*  Css Responsive Start */
+@media  screen and (max-width: 992px) {
+    
+    .flot{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(132, 9, 227);
+    }
+}
+
+@media  screen and (max-width: 600px) {
+   
+    .flot{
+    width: 100%;
+    padding: 10px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+   
+    .flot{
+    width: 100%;
+    padding: 10px;
+    }
+}
+/* Css Responsive End */

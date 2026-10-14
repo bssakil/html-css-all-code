@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.continer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex{
+    width: 25%;
+    padding: 10px;
+}
+
+/*  Css Responsive Start */
+@media  screen and (max-width: 992px) {
+    
+    .flex{
+    width: 50%;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .continer{
+        flex-direction: column;
+    }
+    .flex{
+    width: 100%;
+    }
+}
+/* Css Responsive End */

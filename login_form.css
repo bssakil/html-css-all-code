@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    background-color: beige;
+}
+legend{
+    padding: 10px 0;
+}
+input{
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+input[type="button"]{
+    width: 100px;
+    border: none;
+    background-color: rgb(106, 3, 232);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

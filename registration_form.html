@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Registration Form</h1>
+        <fieldset>
+            <legend title="অনুগ্রহন করে সঠিক তথ্য দিন">Please Provide Correct Information.</legend>
+            <div>
+                <label for="user" title="জন্ম সনদ অথবা জাতীয় পরিচয় পত্রের পুরো নাম দিন">Full Name:</label>
+            <input type="username" id="user" name="username" placeholder="Enter The Full Name On The Birth Certificate Or National Identity Card" required>
+            </div>
+            <div>
+                <label for="date" title="আপনার সঠিক জন্ম তারিখ দেন">Date Of Birth:</label>
+            <input type="date" id="date" name="dob" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+8801xxxxxxxxx" required>
+            </div>
+            <div>
+                <label for="usermail">Email:</label>
+                <input type="email" id="usermail" name="email">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Strong Password" required>
+            </div>
+            <div>
+                Gander:
+               <input type="radio" name="gander">
+               <label for="gander">Male</label>
+               <input type="radio" name="gander">
+               <label for="gander">Female</label>
+               <input type="radio" name="gander">
+               <label for="gander">Other</label>
+            </div>
+            <div>
+                <label for="number" title="">National ID Card Number:</label>
+                <input type="number" id="number" name="number">
+            </div>
+            <div>
+                <label>Select Division:</label>
+                <select>
+                    <option>Dhaka Division</option>
+                    <option>Chattogram (Chittagong) Division</option>
+                    <option>Rajshahi Division</option>
+                    <option>Khulna Division</option>
+                    <option>Barishal Division</option>
+                    <option>Sylhet Division</option>
+                    <option>Rangpur Division</option>
+                    <option>Mymensingh Division</option>
+               </select>
+            </div>
+            <div>
+                <label>Select District:</label>
+                <select>
+                    <option>Dhaka</option>
+                    <option>Chattogram</option>
+                    <option>Rajshahi</option>
+                    <option>Khulna</option>
+                    <option>Barishal</option>
+                    <option>Sylhet</option>
+                    <option>Rangpur</option>
+                    <option>Mymensingh</option>
+                    <option>Gazipur</option>
+                    <option>Kishoreganj</option>
+                    <option>Manikganj</option>
+                    <option>Munshiganj</option>
+                    <option>Narayanganj</option>
+                    <option>Narsingdi</option>
+                    <option>Tangail</option>
+                    <option>Faridpur</option>
+                    <option>Gopalganj</option>
+                    <option>Madaripur</option>
+                    <option>Rajbari</option>
+                    <option>Shariatpur</option>
+                    <option>Cox’s Bazar</option>
+                    <option>Rangamati</option>
+                    <option>Khagrachhari</option>
+                    <option>Bandarban</option>
+                    <option>Feni</option>
+                    <option>Noakhali</option>
+                    <option>Lakshmipur</option>
+                    <option>Chandpur</option>
+                    <option>Brahmanbaria</option>
+                    <option>Cumilla (Comilla)</option>
+                    <option>Naogaon</option>
+                    <option>Natore</option>
+                    <option>Chapai Nawabganj</option>
+                    <option>Joypurhat</option>
+                    <option>Pabna</option>
+                    <option>Sirajganj</option>
+                    <option>Bagerhat</option>
+                    <option>Satkhira</option>
+                    <option>Jessore (Jashore)</option>
+                    <option>Jhenaidah</option>
+                    <option>Magura</option>
+                    <option>Narail</option>
+                    <option>Kushtia</option>
+                    <option>Chuadanga</option>
+                    <option>Meherpur</option>
+                    <option>Barguna</option>
+                    <option>Bhola</option>
+                    <option>Jhalokathi</option>
+                    <option>Patuakhali</option>
+                    <option>Pirojpur</option>
+                    <option>Moulvibazar</option>
+                    <option>Habiganj</option>
+                    <option>Sunamganj</option>
+                    <option>Dinajpur</option>
+                    <option>Thakurgaon</option>
+                    <option>Panchagarh</option>
+                    <option>Nilphamari</option>
+                    <option>Lalmonirhat</option>
+                    <option>Kurigram</option>
+                    <option>Gaibandha</option>
+                    <option>Jamalpur</option>
+                    <option>Sherpur</option>
+                    <option>Netrokona</option>
+               </select>
+            </div>
+            <div>
+                <label for="upazila" title="বর্তমান উপজেলার নাম লিখুন">Current Upazila:</label>
+                <input type="text" id="upazila" name="text" placeholder="Upazila Name" required>
+            </div>
+            <div>
+                <label for="zipcode" title="আপনার ইউনিয়ন পরিষদের জিপ কোড টি দেন">Post Code:</label>
+                <input type="number" id="zipcode" name="zipcode" placeholder="xxxx" required>
+            </div>
+            <div>
+                <label>Write Full Address:</label>
+                <textarea rows="2" cols="20%" placeholder="Village,Post,Upazila, District,Post-Code" required></textarea>
+            </div>
+            <div>
+                <label title="যে মাধ্যমে টাকা নিবেন">Withdraw Select:</label>
+                <select>
+                    <option>Bkash</option>
+                    <option>Nagad</option>
+                    <option>Rocket</option>
+                    <option>Dutch-Bangla Bank</option>
+                    <option>Pubali Bank</option>
+                    <option>Islami Bank</option>
+                    <option>The City Bank Ltd.</option>
+                    <option>Eastern Bank</option>
+               </select>
+            </div>
+            <div>
+                <label title="যে একাউন্টে টাকা নেবেন সেই একাউন্ট নাম্বারটি দিন">Withdraw Account No.</label>
+                <input type="number" name="number" placeholder="xxxx-xxxx-xxxx-xxxx">
+            </div>
+            <div>
+                <label>Payment Select:</label>
+                <select>
+                    <option>Bkash</option>
+                    <option>Nagad</option>
+                </select>
+            </div>
+            <div>
+                <label>Payment Account Select:</label>
+                <select>
+                    <option>01736675373</option>
+                    <option>01916926804</option>
+                    <option>01324952008</option>
+                </select>
+            </div>
+            <div>
+                <label>Amount:</label>
+                <input type="number" name="number" placeholder="Only 1000 Taka BDT" required>
+            </div>
+            <div>
+                <label title="যে নাম্বার থেকে টাকা পাঠিয়েছেন সেই নাম্বারটা দিন">Your Deposit Number:</label>
+                <input type="number" name="number" placeholder="xxxxx-xxx-xxx" required>
+            </div>
+            <div>
+                <label>Transaction Id:</label>
+                <input type="number;text" name="number;test" placeholder="123abeA" required>
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox" required>
+                <label title="আমি সমস্ত শর্তাবলীর সাথে সম্মত এবং আমি নিশ্চিত করছি যে আমার জমা দেওয়া তথ্য সত্য।">Agree to All Terms and Conditions and I Confirm That The Information I have Submitted is True.</label>
+            </div>
+            <div>
+                <input type="submit" name="submit" value="Register">
+                <input type="reset" name="reset" value="Clear">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

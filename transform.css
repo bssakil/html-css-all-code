@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.continer{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+/* Frest Transform */
+.trans{
+    width: 160px;
+    height: 160px;
+    background-color: rgb(120, 218, 8);
+    color: black;
+    margin: 10px;
+    position: relative;
+    transition: 3s;
+}
+
+.trans h2{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.trans:hover{
+    background-color: rgb(3, 22, 227);
+    transform: scale(1.1) rotate(360deg);
+}
+/* Frest Transform */
+
+/* tf Transform */
+.tf{
+    width: 160px;
+    height: 160px;
+    background-color: rgb(235, 223, 6);
+    color: black;
+    padding: 10px;
+    position: relative;
+    transition: 3s;
+}
+
+.tf h2{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.tf:hover{
+    background-color: rgb(220, 5, 236);
+    transform: scale(1.1) skew(40deg);
+}
+/* tf Transform */
+
+/* td Transform */
+.td{
+    width: 160px;
+    height: 160px;
+    background-color: rgb(52, 6, 235);
+    color: black;
+    margin: 10px;
+    position: relative;
+    transition: 3s;
+}
+
+.td h2{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.td:hover{
+    background-color: rgb(5, 236, 220);
+    transform: scale(1.1) skew(-40deg);
+}
+/* td Transform */

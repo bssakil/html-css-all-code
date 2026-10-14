@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navManu{
+    background-color: rgb(138, 255, 127);
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.navManu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0px 10px;
+    color: #000; 
+}
+
+.navManu a:hover{
+    background-color: rgb(249, 249, 8);
+    border-radius: 5px;
+    
+}
+
+@media screen and (max-width:600px){
+    .navManu{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navManu a{
+        background-color: antiquewhite;
+        margin: 20px 0px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .navManu a:hover{
+    background-color: rgb(201, 8, 249);
+    
+    }
+}
+    
